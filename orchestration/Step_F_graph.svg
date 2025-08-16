@@ -1,0 +1,235 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" class="sc-iA-DsXs qjKYo graph" data-testid="graph" role="img" aria-labelledby="polymath-graph-title" width="970" height="681"><title id="polymath-graph-title">Grafico della macchina a stati di Workflow Studio</title><g transform="translate(12,12)" class="new-look-graph"><g class="nodes"><g class="node-container" transform="translate(472.5,22)"><g><circle class="sc-epqpcT gPCoOS shape" r="22"/><text class="sc-BQMaI iabpwH label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">Start</tspan></text></g></g><g class="node-container" transform="translate(472.5,328.5)"><g class="sc-dJiZtA jDhlVQ node state container Parallel" data-testid="graph-Parallel" data-state-id="Parallel" data-state-type="Parallel"><g class="new-look-state-node "><g class="bounding-box" transform="translate(0,5)"><rect class="sc-cyRcrZ kRgEMb shape" rx="7" ry="7" x="-472.5" y="-249.5" width="945" height="494"/><g class="content" transform="translate(-472.5,-249.5)"><g class="branch" transform="translate(20,89)"><g class="branchInsertArea" data-insertion-index="0" data-parent-state-id="Parallel" id="Parallel:0" x="-20" y="0" width="20" height="385"><rect x="-20" y="0" width="20" height="385" stroke="none" fill="none"/><path d="M-10,0 l0,385" stroke="none" fill="none"/></g><g transform=""><g class="nodes"><g class="node-container" transform="translate(275,24.5)"><g class="sc-dJiZtA jDhlVQ node state Task" data-testid="graph-T1_Bitcoin" data-state-id="T1_Bitcoin" data-state-type="Task"><g class="new-look-state-node "><rect x="-120" y="-24.5" width="240" height="49" rx="3" ry="3"/><g class="handle" transform="translate(-120,-24.5)"><path d="M5,16 L5,34 M8,16 L8,34"/></g><g class="icon" transform="translate(-104,-24)"><rect fill="var(--color-background-container-header-etndi4, #fafafa)" x="0.0361026108" y="0.0181291967" width="48" height="48"/><line x1="47.5" y1="0.49122807" x2="47.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><line x1="0.5" y1="0.49122807" x2="0.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><use href="#icon-service-glue" aria-hidden="true"><title>AWS Glue</title></use></g><g class="text-lines" transform="translate(-48,-24.5)"><text transform="translate(0,17)" class="line1"><tspan xml:space="preserve" text-anchor="start">Glue: StartJobRun</tspan></text><text transform="translate(0,35.5)" class="line2 label"><tspan xml:space="preserve" text-anchor="start">T1_Bitcoin</tspan></text></g></g></g></g><g class="node-container" transform="translate(197.5,108.5)"><g class="sc-dJiZtA jDhlVQ node state Task" data-testid="graph-T2_Bitcoin" data-state-id="T2_Bitcoin" data-state-type="Task"><g class="new-look-state-node "><rect x="-120" y="-24.5" width="240" height="49" rx="3" ry="3"/><g class="handle" transform="translate(-120,-24.5)"><path d="M5,16 L5,34 M8,16 L8,34"/></g><g class="icon" transform="translate(-104,-24)"><rect fill="var(--color-background-container-header-etndi4, #fafafa)" x="0.0361026108" y="0.0181291967" width="48" height="48"/><line x1="47.5" y1="0.49122807" x2="47.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><line x1="0.5" y1="0.49122807" x2="0.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><use href="#icon-service-glue" aria-hidden="true"><title>AWS Glue</title></use></g><g class="text-lines" transform="translate(-48,-24.5)"><text transform="translate(0,17)" class="line1"><tspan xml:space="preserve" text-anchor="start">Glue: StartJobRun</tspan></text><text transform="translate(0,35.5)" class="line2 label"><tspan xml:space="preserve" text-anchor="start">T2_Bitcoin</tspan></text></g></g></g></g><g class="node-container" transform="translate(312.5,309.5)"><g class="sc-dJiZtA jDhlVQ node state Fail" data-testid="graph-Fail (1)" data-state-id="Fail (1)" data-state-type="Fail"><g class="new-look-state-node "><rect x="-120" y="-24.5" width="240" height="49" rx="3" ry="3"/><g class="handle" transform="translate(-120,-24.5)"><path d="M5,16 L5,34 M8,16 L8,34"/></g><g class="icon" transform="translate(-104,-24)"><rect fill="var(--color-background-container-header-etndi4, #fafafa)" x="0.0361026108" y="0.0181291967" width="48" height="48"/><line x1="47.5" y1="0.49122807" x2="47.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><line x1="0.5" y1="0.49122807" x2="0.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><use href="#icon-flow-fail"/></g><g class="text-lines" transform="translate(-48,-24.5)"><text transform="translate(0,17)" class="line1"><tspan xml:space="preserve" text-anchor="start">Fail state</tspan></text><text transform="translate(0,35.5)" class="line2 label"><tspan xml:space="preserve" text-anchor="start">Fail (1)</tspan></text></g></g></g></g><g class="node-container" transform="translate(120,209)"><g class="sc-dJiZtA jDhlVQ node state Task" data-testid="graph-Load_Bitcoin" data-state-id="Load_Bitcoin" data-state-type="Task"><g class="new-look-state-node "><rect x="-120" y="-24.5" width="240" height="49" rx="3" ry="3"/><g class="handle" transform="translate(-120,-24.5)"><path d="M5,16 L5,34 M8,16 L8,34"/></g><g class="icon" transform="translate(-104,-24)"><rect fill="var(--color-background-container-header-etndi4, #fafafa)" x="0.0361026108" y="0.0181291967" width="48" height="48"/><line x1="47.5" y1="0.49122807" x2="47.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><line x1="0.5" y1="0.49122807" x2="0.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><use href="#icon-service-glue" aria-hidden="true"><title>AWS Glue</title></use></g><g class="text-lines" transform="translate(-48,-24.5)"><text transform="translate(0,17)" class="line1"><tspan xml:space="preserve" text-anchor="start">Glue: StartJobRun</tspan></text><text transform="translate(0,35.5)" class="line2 label"><tspan xml:space="preserve" text-anchor="start">Load_Bitcoin</tspan></text></g></g></g></g><g class="node-container" transform="translate(197.5,377)"><g><circle class="sc-bvgPty cOJFNL shape" r="8"/></g></g></g><g class="edges"><g class="sc-epALIP giyMaY edge"><path id="state-T1_Bitcoin:state-T2_Bitcoin:normal" d="M229.79166666666666,49L224.4097222222222,51.916666666666664C219.02777777777774,54.833333333333336,208.26388888888889,60.666666666666664,202.88194444444443,66.5C197.5,72.33333333333333,197.5,78.16666666666667,197.5,81.08333333333333L197.5,84" marker-end="url(#arrowhead)" fill="none"/></g><g class="sc-epALIP giyMaY edge"><path id="state-T1_Bitcoin:state-Fail (1):catch:0" d="M343.5416666666667,49L351.7013888888889,51.916666666666664C359.86111111111114,54.833333333333336,376.1805555555556,60.666666666666664,384.3402777777778,70.58333333333333C392.5,80.5,392.5,94.5,392.5,109.875C392.5,125.25,392.5,142,392.5,158.75C392.5,175.5,392.5,192.25,392.5,209C392.5,225.75,392.5,242.5,385.667495854063,255.16666666666666C378.8349917081261,267.8333333333333,365.1699834162521,276.4166666666667,358.3374792703151,280.7083333333333L351.5049751243781,285" marker-end="url(#arrowhead)" fill="none"/><g data-testid="graph-T1_Bitcoin-0" class="edge-label" transform="translate(384.3402777777778,70.58333333333333)"><rect x="-25" y="-8.25" width="50" height="16.5" class="sc-iLsKjm cryzAu"/><text class="sc-lbJcrp tYMZw label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">Catch #1</tspan><title>Catch #1</title></text></g></g><g class="sc-epALIP giyMaY edge"><path id="state-T2_Bitcoin:state-Load_Bitcoin:normal" d="M159.7139303482587,133L153.09494195688225,137.29166666666666C146.47595356550582,141.58333333333334,133.2379767827529,150.16666666666666,126.61898839137645,158.75C120,167.33333333333334,120,175.91666666666666,120,180.20833333333334L120,184.5" marker-end="url(#arrowhead)" fill="none"/></g><g class="sc-epALIP giyMaY edge"><path id="state-T2_Bitcoin:state-Fail (1):catch:0" d="M235.2860696517413,133L241.90505804311775,137.29166666666666C248.52404643449418,141.58333333333334,261.7620232172471,150.16666666666666,268.38101160862357,162.83333333333334C275,175.5,275,192.25,275,209C275,225.75,275,242.5,278.202736318408,255.16666666666666C281.4054726368159,267.8333333333333,287.81094527363183,276.4166666666667,291.0136815920398,280.7083333333333L294.2164179104478,285" marker-end="url(#arrowhead)" fill="none"/><g data-testid="graph-T2_Bitcoin-0" class="edge-label" transform="translate(268.38101160862357,162.83333333333334)"><rect x="-25" y="-8.25" width="50" height="16.5" class="sc-iLsKjm cryzAu"/><text class="sc-lbJcrp tYMZw label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">Catch #1</tspan><title>Catch #1</title></text></g></g><g class="sc-epALIP giyMaY edge"><path id="state-Load_Bitcoin:end:normal" d="M112.68656716417911,233.5L111.40547263681593,237.79166666666666C110.12437810945273,242.08333333333334,107.56218905472637,250.66666666666666,106.28109452736318,263.3333333333333C105,276,105,292.75,105,308.125C105,323.5,105,337.5,119.13128177599022,348.39565065175947C133.26256355198043,359.2913013035189,161.5251271039609,367.08260260703787,175.65640887995116,370.97825325879734L189.78769065594136,374.8739039105568" marker-end="url(#arrowhead)" fill="none"/></g><g class="sc-epALIP giyMaY edge"><path id="state-Load_Bitcoin:state-Fail (1):catch:0" d="M138.28358208955223,233.5L141.4863184079602,237.79166666666666C144.68905472636814,242.08333333333334,151.09452736318408,250.66666666666666,167.53524046434495,259.25C183.97595356550582,267.8333333333333,210.4519071310116,276.4166666666667,223.68988391376453,280.7083333333333L236.92786069651743,285" marker-end="url(#arrowhead)" fill="none"/><g data-testid="graph-Load_Bitcoin-0" class="edge-label" transform="translate(167.53524046434495,259.25)"><rect x="-25" y="-8.25" width="50" height="16.5" class="sc-iLsKjm cryzAu"/><text class="sc-lbJcrp tYMZw label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">Catch #1</tspan><title>Catch #1</title></text></g></g><g class="sc-epALIP giyMaY edge"><path id="state-Fail (1):end:normal" d="M312.5,334L312.5,336.9166666666667C312.5,339.8333333333333,312.5,345.6666666666667,294.63504911014957,352.5446920089089C276.77009822029913,359.42271735115105,241.04019644059824,367.3454347023021,223.1752455507478,371.3067933778777L205.31029466089734,375.2681520534532" marker-end="url(#arrowhead)" fill="none"/></g></g></g><g class="branchInsertArea" data-insertion-index="1" data-parent-state-id="Parallel" id="Parallel:1" x="442.5" y="0" width="20" height="385"><rect x="442.5" y="0" width="20" height="385" stroke="none" fill="none"/><path d="M452.5,0 l0,385" stroke="none" fill="none"/></g></g><g class="branch" transform="translate(482.5,89)"><g transform=""><g class="nodes"><g class="node-container" transform="translate(275,24.5)"><g class="sc-dJiZtA jDhlVQ node state Task" data-testid="graph-T1_Monero" data-state-id="T1_Monero" data-state-type="Task"><g class="new-look-state-node "><rect x="-120" y="-24.5" width="240" height="49" rx="3" ry="3"/><g class="handle" transform="translate(-120,-24.5)"><path d="M5,16 L5,34 M8,16 L8,34"/></g><g class="icon" transform="translate(-104,-24)"><rect fill="var(--color-background-container-header-etndi4, #fafafa)" x="0.0361026108" y="0.0181291967" width="48" height="48"/><line x1="47.5" y1="0.49122807" x2="47.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><line x1="0.5" y1="0.49122807" x2="0.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><use href="#icon-service-glue" aria-hidden="true"><title>AWS Glue</title></use></g><g class="text-lines" transform="translate(-48,-24.5)"><text transform="translate(0,17)" class="line1"><tspan xml:space="preserve" text-anchor="start">Glue: StartJobRun</tspan></text><text transform="translate(0,35.5)" class="line2 label"><tspan xml:space="preserve" text-anchor="start">T1_Monero</tspan></text></g></g></g></g><g class="node-container" transform="translate(197.5,108.5)"><g class="sc-dJiZtA jDhlVQ node state Task" data-testid="graph-T2_Monero" data-state-id="T2_Monero" data-state-type="Task"><g class="new-look-state-node "><rect x="-120" y="-24.5" width="240" height="49" rx="3" ry="3"/><g class="handle" transform="translate(-120,-24.5)"><path d="M5,16 L5,34 M8,16 L8,34"/></g><g class="icon" transform="translate(-104,-24)"><rect fill="var(--color-background-container-header-etndi4, #fafafa)" x="0.0361026108" y="0.0181291967" width="48" height="48"/><line x1="47.5" y1="0.49122807" x2="47.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><line x1="0.5" y1="0.49122807" x2="0.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><use href="#icon-service-glue" aria-hidden="true"><title>AWS Glue</title></use></g><g class="text-lines" transform="translate(-48,-24.5)"><text transform="translate(0,17)" class="line1"><tspan xml:space="preserve" text-anchor="start">Glue: StartJobRun</tspan></text><text transform="translate(0,35.5)" class="line2 label"><tspan xml:space="preserve" text-anchor="start">T2_Monero</tspan></text></g></g></g></g><g class="node-container" transform="translate(312.5,309.5)"><g class="sc-dJiZtA jDhlVQ node state Fail" data-testid="graph-Fail" data-state-id="Fail" data-state-type="Fail"><g class="new-look-state-node "><rect x="-120" y="-24.5" width="240" height="49" rx="3" ry="3"/><g class="handle" transform="translate(-120,-24.5)"><path d="M5,16 L5,34 M8,16 L8,34"/></g><g class="icon" transform="translate(-104,-24)"><rect fill="var(--color-background-container-header-etndi4, #fafafa)" x="0.0361026108" y="0.0181291967" width="48" height="48"/><line x1="47.5" y1="0.49122807" x2="47.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><line x1="0.5" y1="0.49122807" x2="0.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><use href="#icon-flow-fail"/></g><g class="text-lines" transform="translate(-48,-24.5)"><text transform="translate(0,17)" class="line1"><tspan xml:space="preserve" text-anchor="start">Fail state</tspan></text><text transform="translate(0,35.5)" class="line2 label"><tspan xml:space="preserve" text-anchor="start">Fail</tspan></text></g></g></g></g><g class="node-container" transform="translate(120,209)"><g class="sc-dJiZtA jDhlVQ node state Task" data-testid="graph-Load_monero" data-state-id="Load_monero" data-state-type="Task"><g class="new-look-state-node "><rect x="-120" y="-24.5" width="240" height="49" rx="3" ry="3"/><g class="handle" transform="translate(-120,-24.5)"><path d="M5,16 L5,34 M8,16 L8,34"/></g><g class="icon" transform="translate(-104,-24)"><rect fill="var(--color-background-container-header-etndi4, #fafafa)" x="0.0361026108" y="0.0181291967" width="48" height="48"/><line x1="47.5" y1="0.49122807" x2="47.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><line x1="0.5" y1="0.49122807" x2="0.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><use href="#icon-service-glue" aria-hidden="true"><title>AWS Glue</title></use></g><g class="text-lines" transform="translate(-48,-24.5)"><text transform="translate(0,17)" class="line1"><tspan xml:space="preserve" text-anchor="start">Glue: StartJobRun</tspan></text><text transform="translate(0,35.5)" class="line2 label"><tspan xml:space="preserve" text-anchor="start">Load_monero</tspan></text></g></g></g></g><g class="node-container" transform="translate(197.5,377)"><g><circle class="sc-bvgPty cOJFNL shape" r="8"/></g></g></g><g class="edges"><g class="sc-epALIP giyMaY edge"><path id="state-T1_Monero:state-T2_Monero:normal" d="M229.79166666666666,49L224.4097222222222,51.916666666666664C219.02777777777774,54.833333333333336,208.26388888888889,60.666666666666664,202.88194444444443,66.5C197.5,72.33333333333333,197.5,78.16666666666667,197.5,81.08333333333333L197.5,84" marker-end="url(#arrowhead)" fill="none"/></g><g class="sc-epALIP giyMaY edge"><path id="state-T1_Monero:state-Fail:catch:0" d="M343.5416666666667,49L351.7013888888889,51.916666666666664C359.86111111111114,54.833333333333336,376.1805555555556,60.666666666666664,384.3402777777778,70.58333333333333C392.5,80.5,392.5,94.5,392.5,109.875C392.5,125.25,392.5,142,392.5,158.75C392.5,175.5,392.5,192.25,392.5,209C392.5,225.75,392.5,242.5,385.667495854063,255.16666666666666C378.8349917081261,267.8333333333333,365.1699834162521,276.4166666666667,358.3374792703151,280.7083333333333L351.5049751243781,285" marker-end="url(#arrowhead)" fill="none"/><g data-testid="graph-T1_Monero-0" class="edge-label" transform="translate(384.3402777777778,70.58333333333333)"><rect x="-25" y="-8.25" width="50" height="16.5" class="sc-iLsKjm cryzAu"/><text class="sc-lbJcrp tYMZw label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">Catch #1</tspan><title>Catch #1</title></text></g></g><g class="sc-epALIP giyMaY edge"><path id="state-T2_Monero:state-Load_monero:normal" d="M159.7139303482587,133L153.09494195688225,137.29166666666666C146.47595356550582,141.58333333333334,133.2379767827529,150.16666666666666,126.61898839137645,158.75C120,167.33333333333334,120,175.91666666666666,120,180.20833333333334L120,184.5" marker-end="url(#arrowhead)" fill="none"/></g><g class="sc-epALIP giyMaY edge"><path id="state-T2_Monero:state-Fail:catch:0" d="M235.2860696517413,133L241.90505804311775,137.29166666666666C248.52404643449418,141.58333333333334,261.7620232172471,150.16666666666666,268.38101160862357,162.83333333333334C275,175.5,275,192.25,275,209C275,225.75,275,242.5,278.202736318408,255.16666666666666C281.4054726368159,267.8333333333333,287.81094527363183,276.4166666666667,291.0136815920398,280.7083333333333L294.2164179104478,285" marker-end="url(#arrowhead)" fill="none"/><g data-testid="graph-T2_Monero-0" class="edge-label" transform="translate(268.38101160862357,162.83333333333334)"><rect x="-25" y="-8.25" width="50" height="16.5" class="sc-iLsKjm cryzAu"/><text class="sc-lbJcrp tYMZw label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">Catch #1</tspan><title>Catch #1</title></text></g></g><g class="sc-epALIP giyMaY edge"><path id="state-Load_monero:end:normal" d="M112.68656716417911,233.5L111.40547263681593,237.79166666666666C110.12437810945273,242.08333333333334,107.56218905472637,250.66666666666666,106.28109452736318,263.3333333333333C105,276,105,292.75,105,308.125C105,323.5,105,337.5,119.13128177599022,348.39565065175947C133.26256355198043,359.2913013035189,161.5251271039609,367.08260260703787,175.65640887995116,370.97825325879734L189.78769065594136,374.8739039105568" marker-end="url(#arrowhead)" fill="none"/></g><g class="sc-epALIP giyMaY edge"><path id="state-Load_monero:state-Fail:catch:0" d="M138.28358208955223,233.5L141.4863184079602,237.79166666666666C144.68905472636814,242.08333333333334,151.09452736318408,250.66666666666666,167.53524046434495,259.25C183.97595356550582,267.8333333333333,210.4519071310116,276.4166666666667,223.68988391376453,280.7083333333333L236.92786069651743,285" marker-end="url(#arrowhead)" fill="none"/><g data-testid="graph-Load_monero-0" class="edge-label" transform="translate(167.53524046434495,259.25)"><rect x="-25" y="-8.25" width="50" height="16.5" class="sc-iLsKjm cryzAu"/><text class="sc-lbJcrp tYMZw label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">Catch #1</tspan><title>Catch #1</title></text></g></g><g class="sc-epALIP giyMaY edge"><path id="state-Fail:end:normal" d="M312.5,334L312.5,336.9166666666667C312.5,339.8333333333333,312.5,345.6666666666667,294.63504911014957,352.5446920089089C276.77009822029913,359.42271735115105,241.04019644059824,367.3454347023021,223.1752455507478,371.3067933778777L205.31029466089734,375.2681520534532" marker-end="url(#arrowhead)" fill="none"/></g></g></g><g class="branchInsertArea" data-insertion-index="2" data-parent-state-id="Parallel" id="Parallel:2" x="442.5" y="0" width="20" height="385"><rect x="442.5" y="0" width="20" height="385" stroke="none" fill="none"/><path d="M452.5,0 l0,385" stroke="none" fill="none"/></g></g><g class="sc-epALIP giyMaY"><path id="Parallel-T1_Bitcoin" class="path starting-connection" d="M472.5,44L472.5,47.75C472.5,51.5,472.5,59,442.9166666666667,62.75C413.3333333333333,66.5,354.1666666666667,66.5,324.5833333333333,70.25C295,74,295,81.5,295,85.25L295,89" fill="none"/></g><g class="sc-epALIP giyMaY"><path id="Parallel-T1_Monero" class="path starting-connection" d="M472.5,44L472.5,47.75C472.5,51.5,472.5,59,520,62.75C567.5,66.5,662.5,66.5,710,70.25C757.5,74,757.5,81.5,757.5,85.25L757.5,89" fill="none"/></g></g></g><g class="new-look-state-node "><rect x="-120" y="-249.5" width="240" height="49" rx="3" ry="3"/><g class="handle" transform="translate(-120,-249.5)"><path d="M5,16 L5,34 M8,16 L8,34"/></g><g class="icon" transform="translate(-104,-249)"><rect fill="var(--color-background-container-header-etndi4, #fafafa)" x="0.0361026108" y="0.0181291967" width="48" height="48"/><line x1="47.5" y1="0.49122807" x2="47.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><line x1="0.5" y1="0.49122807" x2="0.5" y2="47.5" stroke="var(--color-board-placeholder-active-qurjro, #d5dbdb)" stroke-linecap="square"/><use href="#icon-flow-parallel"/></g><g class="text-lines" transform="translate(-48,-249.5)"><text transform="translate(0,17)" class="line1"><tspan xml:space="preserve" text-anchor="start">Parallel state</tspan></text><text transform="translate(0,35.5)" class="line2 label"><tspan xml:space="preserve" text-anchor="start">Parallel</tspan></text></g></g></g></g></g><g class="node-container" transform="translate(472.5,635)"><g><circle class="sc-epqpcT gPCoOS shape" r="22"/><text class="sc-BQMaI iabpwH label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">End</tspan></text></g></g></g><g class="edges"><g class="sc-epALIP giyMaY edge"><path id="state-Parallel:end:normal" d="M472.5,578L472.5,580.9166666666666C472.5,583.8333333333334,472.5,589.6666666666666,472.5,595.5C472.5,601.3333333333334,472.5,607.1666666666666,472.5,610.0833333333334L472.5,613" marker-end="url(#arrowhead)" fill="none"/></g><g class="sc-epALIP giyMaY edge"><path id="start:state-Parallel" d="M472.5,44L472.5,46.916666666666664C472.5,49.833333333333336,472.5,55.666666666666664,472.5,61.5C472.5,67.33333333333333,472.5,73.16666666666667,472.5,76.08333333333333L472.5,79" marker-end="url(#arrowhead)" fill="none"/></g></g><defs><marker id="arrowhead" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto" class="sc-dwalKd kqUrmj"><polygon points="0 0, 8 3, 0 6"/></marker><marker id="highlighted-arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto" class="sc-dwalKd kqUrmj"><polygon points="0 0, 6 2, 0 4"/></marker><marker id="error-arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto" class="sc-dwalKd kqUrmj"><polygon points="0 0, 6 2, 0 4"/></marker><marker id="large-arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" class="sc-dwalKd kqUrmj"><polygon points="0 0, 10 4, 0 8"/></marker><marker id="large-highlighted-arrowhead" markerWidth="5.5" markerHeight="4" refX="4.5" refY="2" orient="auto" class="sc-dwalKd kqUrmj"><polygon points="0 0, 5.5 2, 0 4"/></marker><marker id="large-error-arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" class="sc-dwalKd kqUrmj"><polygon points="0 0, 10 4, 0 8"/></marker><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-orange"><stop stop-color="#C8511B" offset="0%"/><stop stop-color="#FF9900" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-turquoise"><stop stop-color="#055F4E" offset="0%"/><stop stop-color="#56C0A7" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-blue"><stop stop-color="#2E27AD" offset="0%"/><stop stop-color="#527FFF" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-pink"><stop stop-color="#B0084D" offset="0%"/><stop stop-color="#FF4F8B" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-red"><stop stop-color="#BD0816" offset="0%"/><stop stop-color="#FF5252" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-green"><stop stop-color="#1B660F" offset="0%"/><stop stop-color="#6CAE3E" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-purple"><stop stop-color="#4D27A8" offset="0%"/><stop stop-color="#A166FF" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-grey"><stop stop-color="#DCDCDC" offset="0%"/><stop stop-color="#F6F5F7" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-light-pink"><stop stop-color="#DD344C" offset="0%"/><stop stop-color="#DD344C" offset="100%"/></linearGradient>,<linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-ag"><stop stop-color="#BC1356" offset="0%"/><stop stop-color="#F34482" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-athena"><stop stop-color="#5930B5" offset="0%"/><stop stop-color="#945DF2" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-emr"><stop stop-color="#5930B5" offset="0%"/><stop stop-color="#945DF2" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-glue"><stop stop-color="#5930B5" offset="0%"/><stop stop-color="#945DF2" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-sns"><stop stop-color="#BC1356" offset="0%"/><stop stop-color="#F34482" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-states"><stop stop-color="#BC1356" offset="0%"/><stop stop-color="#F34482" offset="100%"/></linearGradient><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient-generic"><stop stop-color="#ccc" offset="0%"/><stop stop-color="#ddd" offset="100%"/></linearGradient><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" id="icon-flow-parallel"><g transform="translate(7.794758, 8.750000)" fill="#0073BB" fill-rule="nonzero"><path d="M16.199562,30.9615157 L16.1088907,30.9567289 L16.0428411,30.9462621 L15.9289205,30.9134016 L15.8581395,30.8824655 L15.747534,30.8144639 L15.6634156,30.7418457 L12.1634156,27.2418457 C11.8705224,26.9489525 11.8705224,26.4740788 12.1634156,26.1811856 C12.4296821,25.914919 12.8463458,25.890713 13.1399573,26.1085674 L13.2240758,26.1811856 L15.455,28.412 L15.455,12.999 L4.95524179,12.999 L4.955,28.446 L7.21966991,26.1811856 L7.30378835,26.1085674 C7.59739984,25.890713 8.01406352,25.914919 8.28033009,26.1811856 C8.54659665,26.4474521 8.5708027,26.8641158 8.35294824,27.1577273 L8.28033009,27.2418457 L4.78033009,30.7418457 L4.69621165,30.8144639 L4.689,30.818 C4.66089447,30.8406686 4.6237969,30.8633711 4.58539483,30.8825712 L4.50825575,30.9158403 L4.44163507,30.9367462 L4.36774058,30.9522701 L4.27779844,30.9610057 L4.22212648,30.9610007 L4.09909543,30.9462621 L3.99176083,30.9158467 L3.9143938,30.8824655 L3.82554184,30.8300094 L3.80378835,30.8144639 L3.71966991,30.7418457 L0.219669914,27.2418457 C-0.0732233047,26.9489525 -0.0732233047,26.4740788 0.219669914,26.1811856 C0.485936477,25.914919 0.902600159,25.890713 1.19621165,26.1085674 L1.28033009,26.1811856 L3.455,28.356 L3.45524179,12.25 C3.45524179,11.8703042 3.73739568,11.556509 4.10347124,11.5068466 L4.20524179,11.5 L15.455,11.502 L15.4552418,-1.42108547e-13 L16.9552418,-1.42108547e-13 L16.955,11.495 L28.1555171,11.5 C28.5351143,11.5001394 28.8487603,11.7822674 28.8983985,12.1482549 L28.9052418,12.25 L28.905,28.44 L31.1641955,26.1811856 L31.2483139,26.1085674 C31.5419254,25.890713 31.9585891,25.914919 32.2248557,26.1811856 C32.4911222,26.4474521 32.5153283,26.8641158 32.2974738,27.1577273 L32.2248557,27.2418457 L28.7248557,30.7418457 C28.6845386,30.7821628 28.6407734,30.8169302 28.5945094,30.8461478 L28.5328469,30.8811 L28.4268027,30.9248089 L28.3112733,30.9524264 L28.1887092,30.9615157 L28.1087231,30.9566189 L28.0352714,30.9445058 L27.9277401,30.9126603 L27.8920604,30.8980433 L27.8568141,30.8814079 C27.8351606,30.8704626 27.8145136,30.8587698 27.7943421,30.8460217 C27.7482777,30.8169302 27.7045126,30.7821628 27.6641955,30.7418457 L24.1641955,27.2418457 C23.8713023,26.9489525 23.8713023,26.4740788 24.1641955,26.1811856 C24.4304621,25.914919 24.8471258,25.890713 25.1407372,26.1085674 L25.2248557,26.1811856 L27.405,28.362 L27.4052418,12.999 L16.955,12.992 L16.955,28.389 L19.1634156,26.1811856 L19.247534,26.1085674 C19.5411455,25.890713 19.9578092,25.914919 20.2240758,26.1811856 C20.4903423,26.4474521 20.5145484,26.8641158 20.2966939,27.1577273 L20.2240758,27.2418457 L16.7240758,30.7418457 L16.6399573,30.8144639 L16.636,30.816 L16.589136,30.8490255 L16.5330413,30.8806066 L16.4260228,30.9248089 L16.3532729,30.9444467 L16.2795333,30.9566255 L16.199562,30.9615157 Z" fill="false"/></g></g><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" id="icon-flow-fail"><g transform="translate(11.250000, 12.250000)" fill="#D13212" fill-rule="nonzero"><path d="M12.75,0 C5.70836944,0 0,5.70836944 0,12.75 C0,19.7916306 5.70836944,25.5 12.75,25.5 C19.7916306,25.5 25.5,19.7916306 25.5,12.75 C25.5,5.70836944 19.7916306,0 12.75,0 Z M12.75,1.5 C18.9632034,1.5 24,6.53679656 24,12.75 C24,18.9632034 18.9632034,24 12.75,24 C6.53679656,24 1.5,18.9632034 1.5,12.75 C1.5,6.53679656 6.53679656,1.5 12.75,1.5 Z"/><path d="M16.5831403,8.21116377 C16.8767518,7.99330931 17.2934155,8.01751536 17.559682,8.28378193 C17.8259486,8.55004849 17.8501547,8.96671217 17.6323002,9.26032366 L17.559682,9.3444421 L13.622464,13.282112 L17.559682,17.2196699 C17.8525753,17.5125631 17.8525753,17.9874369 17.559682,18.2803301 C17.2934155,18.5465966 16.8767518,18.5708027 16.5831403,18.3529482 L16.4990219,18.2803301 L12.561464,14.343112 L8.62379406,18.2803301 L8.53967563,18.3529482 C8.24606413,18.5708027 7.82940045,18.5465966 7.56313389,18.2803301 C7.29686733,18.0140635 7.27266128,17.5973998 7.49051574,17.3037883 L7.56313389,17.2196699 L11.500464,13.282112 L7.56313389,9.3444421 C7.27024067,9.05154888 7.27024067,8.57667514 7.56313389,8.28378193 C7.82940045,8.01751536 8.24606413,7.99330931 8.53967563,8.21116377 L8.62379406,8.28378193 L12.561464,12.221112 L16.4990219,8.28378193 L16.5831403,8.21116377 Z"/></g></g><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" id="icon-service-glue"><rect fill="#FFFFFF" x="0" y="0" width="48" height="48"/><polygon fill="url(#gradient-glue)" fill-rule="nonzero" points="0 0 48 0 48 48 0 48"/><g transform="translate(12.857143, 6.857143)" fill="#FFFFFF"><path d="M11.4110924,34.7983206 C11.2500884,34.7986339 11.094057,34.7425601 10.970084,34.6398319 L6.79428571,31.1944538 C6.57103391,31.0085632 6.48834756,30.7026237 6.58756303,30.4295798 C6.68620434,30.1567421 6.94517255,29.9749134 7.23529412,29.9747899 L9.30252101,29.9747899 L9.30252101,27.907563 L10.6806723,27.907563 L10.6806723,30.6638655 C10.6806723,31.0444315 10.3721626,31.3529412 9.99159664,31.3529412 L9.15092437,31.3529412 L11.4042017,33.2134454 L13.6161345,31.3529412 L12.7478992,31.3529412 C12.3673332,31.3529412 12.0588235,31.0444315 12.0588235,30.6638655 L12.0588235,27.907563 L13.4369748,27.907563 L13.4369748,29.9747899 L15.5042017,29.9747899 C15.7914588,29.9776242 16.046819,30.1583697 16.1449919,30.4283452 C16.2431648,30.6983206 16.1635501,31.0008753 15.9452101,31.187563 L11.8521008,34.6329412 C11.7290858,34.7381552 11.5729568,34.7967036 11.4110924,34.7983206 Z"/><path d="M17.5507563,8.95798319 L17.3853782,10.3361345 C18.5201274,10.4194541 19.6390655,10.6511183 20.7136134,11.0252101 C19.4939496,11.5557983 16.0554622,12.0588235 11.3697479,12.0588235 C6.54621849,12.0588235 3.10084034,11.507563 2.00521008,11.0252101 C2.99747899,10.6048739 5.8502521,10.0398319 10.6806723,9.99159664 L10.6806723,8.61344538 C1.30235294,8.70991597 0.344537815,10.3292437 0.344537815,11.0252101 C0.341471846,11.0710973 0.341471846,11.117138 0.344537815,11.1630252 C0.358539329,11.2474457 0.386483587,11.3289498 0.427226891,11.4042017 L0.565042017,11.6453782 C0.595496695,11.7002023 0.632520414,11.7511099 0.675294118,11.7969748 C0.745398056,11.8656425 0.821499136,11.927907 0.902689076,11.9830252 L8.61344538,24.007395 L8.61344538,25.8472269 C8.61250869,26.1355861 8.79122213,26.3940332 9.06134454,26.494958 C9.81457775,26.7803536 10.6125198,26.9296761 11.4179832,26.9359664 C12.1983242,26.9336377 12.9707224,26.7791581 13.6919328,26.4811765 C13.9519555,26.377632 14.123518,26.1270963 14.1260504,25.8472269 L14.1260504,24.0005042 L21.8023529,11.989916 L21.8023529,11.989916 C22.1543874,11.7934672 22.378872,11.4280272 22.394958,11.0252101 C22.394958,10.2878992 21.8230252,9.46789916 17.5507563,8.95798319 Z M12.8581513,23.4285714 C12.78651,23.5394806 12.7482413,23.6686374 12.7478992,23.8006723 L12.7478992,25.3579832 C11.8502992,25.6368957 10.8891966,25.6368957 9.99159664,25.3579832 L9.99159664,23.8006723 C9.99125446,23.6686374 9.95298578,23.5394806 9.88134454,23.4285714 L3.03882353,12.7410084 C5.78684404,13.2406038 8.57698824,13.4713849 11.3697479,13.430084 C14.1577073,13.4646521 16.9426332,13.2339209 19.6868908,12.7410084 L12.8581513,23.4285714 Z"/><path d="M15.5042017,10.6806723 L12.7478992,10.6806723 C12.3673332,10.6806723 12.0588235,10.3721626 12.0588235,9.99159664 L12.0588235,7.23529412 C12.0588235,6.85472816 12.3673332,6.54621849 12.7478992,6.54621849 L15.5042017,6.54621849 C15.8847676,6.54621849 16.1932773,6.85472816 16.1932773,7.23529412 L16.1932773,9.99159664 C16.1932773,10.3721626 15.8847676,10.6806723 15.5042017,10.6806723 Z M13.4369748,9.30252101 L14.8151261,9.30252101 L14.8151261,7.92436975 L13.4369748,7.92436975 L13.4369748,9.30252101 Z"/><path d="M14.1260504,4.4789916 L11.3697479,4.4789916 C10.9891819,4.4789916 10.6806723,4.17048193 10.6806723,3.78991597 L10.6806723,1.03361345 C10.6806723,0.653047483 10.9891819,0.344537815 11.3697479,0.344537815 L14.1260504,0.344537815 C14.5066164,0.344537815 14.8151261,0.653047483 14.8151261,1.03361345 L14.8151261,3.78991597 C14.8151261,4.17048193 14.5066164,4.4789916 14.1260504,4.4789916 Z M12.0588235,3.10084034 L13.4369748,3.10084034 L13.4369748,1.72268908 L12.0588235,1.72268908 L12.0588235,3.10084034 Z"/><path d="M8.61344538,7.92436975 L5.85714286,7.92436975 C5.4765769,7.92436975 5.16806723,7.61586008 5.16806723,7.23529412 L5.16806723,4.4789916 C5.16806723,4.09842563 5.4765769,3.78991597 5.85714286,3.78991597 L8.61344538,3.78991597 C8.99401134,3.78991597 9.30252101,4.09842563 9.30252101,4.4789916 L9.30252101,7.23529412 C9.30252101,7.61586008 8.99401134,7.92436975 8.61344538,7.92436975 Z M6.54621849,6.54621849 L7.92436975,6.54621849 L7.92436975,5.16806723 L6.54621849,5.16806723 L6.54621849,6.54621849 Z"/></g></g></defs></g><style data-styled="true" data-styled-version="5.3.11">.jDhlVQ{cursor:pointer;}/*!sc*/
+data-styled.g174[id="sc-dJiZtA"]{content:"jDhlVQ,"}/*!sc*/
+.giyMaY{stroke:#555;background-color:#555;stroke-width:1px;}/*!sc*/
+data-styled.g175[id="sc-epALIP"]{content:"giyMaY,"}/*!sc*/
+.cryzAu{stroke-width:0;stroke:none;fill:#f2f3f3;}/*!sc*/
+data-styled.g176[id="sc-iLsKjm"]{content:"cryzAu,"}/*!sc*/
+.tYMZw{font-size:10px;line-height:12.5;stroke:none;}/*!sc*/
+data-styled.g177[id="sc-lbJcrp"]{content:"tYMZw,"}/*!sc*/
+.kqUrmj{fill:var(--color-text-form-secondary-btuye6,#687078);}/*!sc*/
+data-styled.g203[id="sc-dwalKd"]{content:"kqUrmj,"}/*!sc*/
+.iabpwH{font-weight:400;font-size:12px;line-height:16px;font-family:Amazon Ember,Arial,Roboto,Arial,sans-serif;text-shadow:none;fill:var(--color-text-button-primary-default-qh066v,#16191f);}/*!sc*/
+data-styled.g204[id="sc-BQMaI"]{content:"iabpwH,"}/*!sc*/
+.gPCoOS{fill:#fff9cc;stroke:var(--color-text-form-secondary-btuye6,#687078);stroke-width:0.6px;}/*!sc*/
+data-styled.g205[id="sc-epqpcT"]{content:"gPCoOS,"}/*!sc*/
+.cOJFNL{fill:#fff9cc;stroke:var(--color-text-form-secondary-btuye6,#687078);stroke-width:0.6px;}/*!sc*/
+data-styled.g206[id="sc-bvgPty"]{content:"cOJFNL,"}/*!sc*/
+.kRgEMb{stroke:var(--color-border-control-default-ie1oqq,#687078);stroke-width:1px;fill:var(--color-background-container-content-x1dxuu,#ffffff);opacity:0.5;}/*!sc*/
+.node &gt; .new-look-state-node.has-errors &gt; .bounding-box &gt; .sc-cyRcrZ{stroke:var(--color-border-status-error-si9bvu,#d13212);fill:var(--color-background-status-error-qqw3y6,#fdf3f1);}/*!sc*/
+.selected &gt; .node &gt; .new-look-state-node &gt; .bounding-box &gt; .sc-cyRcrZ{stroke:var(--color-border-status-info-fjyzd6,#0073bb);fill:var(--color-background-status-info-60ssq8,#f1faff);}/*!sc*/
+.selected &gt; .node &gt; .new-look-state-node.has-errors &gt; .bounding-box &gt; .sc-cyRcrZ{stroke:var(--color-border-status-error-si9bvu,#d13212);fill:#fde0da;}/*!sc*/
+data-styled.g207[id="sc-cyRcrZ"]{content:"kRgEMb,"}/*!sc*/
+</style><style>
+.new-look-state-node &gt; rect:first-of-type {
+  stroke: #687078;
+  stroke-width: 1px;
+  fill: #FFFFFF;
+}
+
+.new-look-state-node .error-icon circle {
+ stroke-linejoin: round;
+}
+
+.new-look-state-node .error-icon circle, .new-look-state-node .error-icon path {
+ stroke: var(--color-border-status-error-si9bvu, #d13212);
+ fill: none;
+ stroke-width: 2px;
+}
+
+.new-look-state-node.has-errors &gt; rect:first-of-type {
+ stroke: var(--color-border-status-error-si9bvu, #d13212);
+ fill: var(--color-background-status-error-qqw3y6, #fdf3f1);
+}
+
+.new-look-state-node.has-errors &gt; .bounding-box &gt; .new-look-state-node-sub &gt; rect {
+  stroke: var(--color-border-status-error-si9bvu, #d13212);
+  fill: var(--color-background-status-error-qqw3y6, #fdf3f1);
+}
+
+.new-look-state-node .handle path {
+  stroke: var(--color-border-dropdown-item-hover-t6obhh, #879596);
+  stroke-width: 1px;
+  fill: none;
+}
+
+.new-look-state-node {
+  font-weight: 400;
+  font-family: Amazon Ember, Arial, Roboto, Arial, sans-serif;
+  text-shadow: none;
+}
+
+.new-look-state-node .line1 {
+  fill: #687078;
+  font-size: 12px;
+}
+
+.new-look-state-node .line2 {
+  fill: #16191f;
+}
+
+.selected.node &gt; .new-look-state-node &gt; rect,
+.selected.node &gt; .new-look-state-node &gt; .new-look-state-node &gt; rect,
+.selected.node &gt; .new-look-state-node &gt; .bounding-box &gt; rect,
+.selected.node &gt; .new-look-state-node.has-errors &gt; rect,
+.selected.node &gt; .new-look-state-node.has-errors &gt; .bounding-box &gt; rect,
+.selected.node &gt; .new-look-state-node.has-errors &gt; .new-look-state-node &gt; rect,
+.selected.node &gt; .new-look-state-node &gt; .bounding-box &gt; .new-look-state-node-sub &gt; rect
+ {
+  stroke: var(--color-border-status-info-fjyzd6, #0073bb);
+  fill: var(--color-background-status-info-60ssq8, #f1faff);
+  stroke-width: 1px;
+}
+
+.new-look-state-node-sub .item-source.not-specified {
+  height: 15px;
+  color: #687078;
+  font-family: "Amazon Ember";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 16px;
+  font-weight: 400;
+}
+.new-look-state-node-sub .item-source .item-source_name{
+  font-weight: 600;
+}
+.new-look-state-node-sub .item-source.not-specified .item-source_name{
+  font-weight: 400;
+}
+
+.new-look-state-node-sub .item-source.not-specified {
+  font-style: italic;
+}
+
+.new-look-state-node-sub &gt; rect,
+.new-look-state-node &gt; .bounding-box &gt; rect {
+  stroke: var(--color-border-control-default-ie1oqq, #687078);
+  fill: #ffffff;
+}
+
+.new-look-graph .drag-source {
+  opacity: 0.2;
+}
+
+.new-look-graph .edge, .new-look-graph path.starting-connection {
+  stroke-width: 1px;
+  stroke: var(--color-text-form-secondary-btuye6, #687078);
+  marker-end: url(#large-arrowhead);
+}
+
+.new-look-graph .edge-label {
+  cursor: pointer;
+}
+
+.new-look-graph .edge-label rect {
+  stroke-width: 1px;
+  stroke: var(--color-border-control-default-ie1oqq, #687078);
+  fill: #fafafa;
+}
+
+.new-look-graph .edge-label.selected rect {
+  stroke: var(--color-border-status-info-fjyzd6, #0073bb);
+  fill: var(--color-background-status-info-60ssq8, #f1faff);
+  stroke-width: 0.6px;
+}
+
+
+
+.new-look-graph .edge-label .label {
+  fill: var(--color-text-form-secondary-btuye6, #687078);
+  font-family: Amazon Ember, Arial, Roboto, Arial, sans-serif;
+}
+
+/* centering the shape text */
+@-moz-document url-prefix() {
+  .new-look-graph .shape + text,
+  .new-look-graph .edge-label text {
+    transform: translateY(3.5px);
+  }
+}
+
+.new-look-graph .edge path {
+  marker-end: url(#large-arrowhead) !important;
+}
+
+.new-look-graph .edge.selected path{
+  stroke: var(--color-border-status-info-fjyzd6, #0073bb);
+  stroke-width: 1.1px;
+}
+
+.new-look-graph .edge.dragging-over path, .new-look-graph  g.dragging-over .starting-connection {
+  stroke: #5C86FF;
+  stroke-width: 2px;
+}
+
+.new-look-graph .edge.dragging-over path, .new-look-graph .dragging-over path.starting-connection {
+  marker-end: url(#large-highlighted-arrowhead) !important;
+}
+
+.new-look-graph .edge.dragging-over .edge-label text {
+  fill: #5C86FF;
+}
+
+#large-highlighted-arrowhead {
+  fill: #5C86FF;
+}
+
+#large-highlighted-arrowhead path {
+  stroke: none;
+}
+
+.new-look-graph .edge.drop-not-supported path, g.drop-not-supported .starting-connection {
+  stroke: red;
+}
+
+.new-look-graph .edge.drop-not-supported .edge-label text {
+  fill: red;
+}
+
+.new-look-graph .edge.drop-not-supported path {
+  marker-end: url(#large-error-arrowhead) !important;
+}
+
+#large-error-arrowhead {
+  fill: red;
+}
+
+.node-container * &gt; .icon  {
+  &gt; rect {
+    fill: #fafafa;
+  }
+  &gt; line {
+    stroke: #d5dbdb;
+  }
+}
+
+
+.node.Placeholder.dragging-over rect {
+  stroke: var(--color-border-status-info-fjyzd6, #0073bb);
+  fill: var(--color-background-status-info-60ssq8, #f1faff);
+  stroke-width: 2px;
+}
+
+.node.Placeholder.dragging-over .label {
+  fill: var(--color-text-status-info-f9d9f2, #0073bb);
+}
+
+g.Placeholder rect {
+  stroke-dasharray: 5 4;
+  stroke: var(--color-border-dropdown-item-hover-t6obhh, #879596);
+  fill: #ffffff;
+  stroke-width: 1px;
+}
+
+g.Placeholder .label {
+  font-style: italic;
+  fill: var(--color-text-input-placeholder-lhl4lu, #687078);
+}
+
+.node.Placeholder.drop-not-supported rect {
+  stroke: red;
+}
+
+.node.Placeholder.drop-not-supported .label {
+  fill: red;
+}
+</style><style>.line2 { font-size: 14px }</style></svg>

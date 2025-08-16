@@ -1,0 +1,125 @@
+{
+  "Comment": "A description of my state machine",
+  "StartAt": "Parallel",
+  "States": {
+    "Parallel": {
+      "Type": "Parallel",
+      "End": true,
+      "Branches": [
+        {
+          "StartAt": "T1_Bitcoin",
+          "States": {
+            "T1_Bitcoin": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Arguments": {
+                "JobName": "T1_bitcoin"
+              },
+              "Catch": [
+                {
+                  "ErrorEquals": [
+                    "States.ALL"
+                  ],
+                  "Next": "Fail (1)"
+                }
+              ],
+              "Next": "T2_Bitcoin"
+            },
+            "T2_Bitcoin": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Arguments": {
+                "JobName": "T2_bitcoin"
+              },
+              "Catch": [
+                {
+                  "ErrorEquals": [
+                    "States.ALL"
+                  ],
+                  "Next": "Fail (1)"
+                }
+              ],
+              "Next": "Load_Bitcoin"
+            },
+            "Load_Bitcoin": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Arguments": {
+                "JobName": "Load_bitcoin"
+              },
+              "End": true,
+              "Catch": [
+                {
+                  "ErrorEquals": [
+                    "States.ALL"
+                  ],
+                  "Next": "Fail (1)"
+                }
+              ]
+            },
+            "Fail (1)": {
+              "Type": "Fail"
+            }
+          }
+        },
+        {
+          "StartAt": "T1_Monero",
+          "States": {
+            "T1_Monero": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Arguments": {
+                "JobName": "T1_monero"
+              },
+              "Catch": [
+                {
+                  "ErrorEquals": [
+                    "States.ALL"
+                  ],
+                  "Next": "Fail"
+                }
+              ],
+              "Next": "T2_Monero"
+            },
+            "T2_Monero": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Arguments": {
+                "JobName": "T2_Monero"
+              },
+              "Catch": [
+                {
+                  "ErrorEquals": [
+                    "States.ALL"
+                  ],
+                  "Next": "Fail"
+                }
+              ],
+              "Next": "Load_monero"
+            },
+            "Load_monero": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Arguments": {
+                "JobName": "Load_monero"
+              },
+              "End": true,
+              "Catch": [
+                {
+                  "ErrorEquals": [
+                    "States.ALL"
+                  ],
+                  "Next": "Fail"
+                }
+              ]
+            },
+            "Fail": {
+              "Type": "Fail"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "QueryLanguage": "JSONata"
+}
